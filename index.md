@@ -15,9 +15,9 @@ If you\'d like to chat, feel free to email me at lonnglau@gmail.com.
 
   <a href="https://twitter.com/lnglau" target="_blank">Twitter</a>
 
-  <a href="#" target="_blank">###</a>
+  <!-- <a href="#" target="_blank">###</a> -->
 
-  <a href="#" target="_blank">###</a>
+  <!-- <a href="#" target="_blank">###</a> -->
 
   <a href="/feed.xml" target="_blank">Blog feed</a>
 </div>
