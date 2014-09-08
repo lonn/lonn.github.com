@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+
+      {% include header.html %}
+
+      <section class="content">
+        <div class="container">
+          <article>
+            <header class="post-header">
+
+              <div class="post-title">{{ page.title }}</div>
+              {% if page.date %}
+                <small class="meta">
+                  {{ page.date | date_to_string }} -
+                  by <a href="https://twitter.com/lnglau" target="_blank">@lnglau</a>
+                </small>
+              {% endif %}
+            </header>
+            {{ content }}
+          </article>
+        </div>
+      </section>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

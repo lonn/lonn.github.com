@@ -109,6 +109,21 @@ hr {
 
 .post-header {
   text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    width: 6px; height: 6px;
+    background: #f8f8f8;
+    position: absolute;
+    border: 6px solid #f8f8f8;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: -6px;
+    bottom: -6px;
+  }
 }
 
 .post-title {
