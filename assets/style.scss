@@ -12,7 +12,9 @@ body {
 
 a {
   text-decoration: none;
-  &:hover {}
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 hr {
@@ -89,4 +91,31 @@ hr {
   font-size: 11px;
   padding: 30px 30px 50px;
   text-align: center;
+}
+
+// archive page
+.posts {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  a {
+    color: #333;
+  }
+  .post {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.post-header {
+  text-align: center;
+}
+
+.post-title {
+  font-size: 20px;
+}
+
+.meta {
+  font-size: 11px;
+  &, * { color: #a0a0a0; }
 }
