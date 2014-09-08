@@ -32,6 +32,14 @@ hr {
   }
 }
 
+.instagram {
+  margin-bottom: 20px;
+}
+
+.a-person, .a-page {
+  display: inline-block;
+}
+
 .wrapper {
   max-width: 700px;
   margin: auto;
@@ -42,11 +50,13 @@ hr {
   padding: 30px 0;
 
   a {
+    color: #aaa;
     margin-right: 20px;
     &.active {
+      color: #333;
       border-bottom: 1px solid #333;
     }
-    &.last-child {
+    &:last-child {
       margin-right: 0;
     }
   }
