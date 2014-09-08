@@ -3,10 +3,11 @@ layout: about
 ---
 
 **Mark Lau**<br>
+I'm a programmer. I am fond of Rails.
 <!-- Hello, my name is Mark. I\'d call myself very junior programmer, web developer, art enthusiast, and recently started my career at IBM GDC working on a B2C project.
  -->
 
-If you\'d like to chat, feel free to email me at lonnglau@gmail.com.
+<small>lonnglau[at]gmail.com</small>
 
 ---
 
