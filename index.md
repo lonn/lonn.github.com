@@ -4,8 +4,10 @@ layout: about
 
 **Mark Lau**<br>
 Programmer. Fond of Rails.
-<!-- Hello, my name is Mark. I\'d call myself very junior programmer, web developer, art enthusiast, and recently started my career at IBM GDC working on a B2C project.
- -->
+
+{% comment %}
+Hello, my name is Mark. I\'d call myself very junior programmer, web developer, art enthusiast, and recently started my career at IBM GDC working on a B2C project.
+{% endcomment %}
 
 <small>lonnglau[at]gmail.com</small>
 
