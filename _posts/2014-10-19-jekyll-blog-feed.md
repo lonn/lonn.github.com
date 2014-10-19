@@ -11,18 +11,18 @@ date: 2014-10-19 12:00:00
 ###1. 给你的 Jekyll 网站添加 site details
 在 `_config.yml` file 添加下列属性：
 
-~~~
+```
 name:         Your Blog's Name
 description:  A description for your blog
 url:          http://your-blog-url.com
-~~~
+```
 
 这些值 `{{ site.name }}`，`{{ site.description }}`，`{{ site.url }}` 会在你的 feed 文件里用到。
 
 ###2. 在网站根目录下添加 feed.xml
 在 [jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds) 这个项目里面，会有几个 feeds template，选择你想要的，我选择的是 `feed.xml`，代码如下：
 
-~~~
+``` html
 ---
 layout: none
 ---
@@ -44,7 +44,7 @@ layout: none
         {% endfor %}
     </channel>
 </rss>
-~~~
+```
 
 修改 `{% for post in site.posts limit:10 %}` 中的数字 `10` ，将规定你的 feed 里的最近文章数。
 
