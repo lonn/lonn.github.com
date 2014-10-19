@@ -2,3 +2,6 @@ title: "@lnglau"
 highlighter: pygments
 permalink: pretty
 markdown: kramdown
+name: "@lnglau"
+description: "blog"
+url: http://liuyuel.com
