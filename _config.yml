@@ -5,3 +5,5 @@ markdown: redcarpet
 name: "@lnglau"
 description: "blog"
 url: http://liuyuel.com
+author:
+  name: "Mark Lau"

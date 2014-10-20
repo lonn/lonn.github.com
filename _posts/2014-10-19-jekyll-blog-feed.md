@@ -2,6 +2,8 @@
 layout: post
 title: 为 Jekyll 博客添加 RSS feed
 date: 2014-10-19 12:00:00
+description: 为 Jekyll 博客添加 RSS feed
+keywords: jekyll,feed,rss
 ---
 {% raw %}
 为博客添加 RSS feed，不仅能方便别人订阅，自己也能利用它制作 IFTTT action，同步推送到各种 social network。
