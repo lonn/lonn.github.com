@@ -20,7 +20,7 @@ Hello, my name is Mark. I\'d call myself very junior programmer, web developer, 
 
   <!-- <a href="#" target="_blank">###</a> -->
 
-  <!-- <a href="#" target="_blank">###</a> -->
+  <a href="/archive">Blog</a>
 
   <a href="/feed.xml" target="_blank">Blog feed</a>
 </div>

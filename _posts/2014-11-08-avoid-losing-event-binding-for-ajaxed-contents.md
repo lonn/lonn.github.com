@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 防止事件绑定在 ajax 更新后失效
+title: 防止绑定事件在 ajax 更新后失效
 date: 2014-11-08 23:09:00
-description: 防止事件绑定在 ajax 更新后失效
+description: 防止绑定事件在 ajax 更新后失效
 keywords: event binding,dojo,jquery
 ---
 ###问题：
 最近在为网页元素添加点击事件，在测试过程中发现元素的点击事件在有 ajax 更新后失效。就是说假如为页面上的 `button` 加上一个点击事件：
 
-```
+``` javascript
 $('button').on('click', function() {
   console.log('click');
 });
