@@ -20,7 +20,7 @@ var StrippedString = OriginalString.replace(/(<([^>]+)>)/ig,"");
 
   // You can now reference the window, document, and jQuery objects in a local scope
 
-}(window, document, window.jQuery)); // The global window, document, and jQuery objects are passed into the anonymous function
+})(window, document, window.jQuery); // The global window, document, and jQuery objects are passed into the anonymous function
 ```
 
 ***
