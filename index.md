@@ -16,7 +16,7 @@ Hello, my name is Mark. I\'d call myself very junior programmer, web developer, 
 <div class="links">
   <a href="https://github.com/lonn" target="_blank">GitHub</a>
 
-  <a href="https://twitter.com/lnglau" target="_blank">Twitter</a>
+  <a href="https://twitter.com/liuyuel" target="_blank">Twitter</a>
 
   <!-- <a href="#" target="_blank">###</a> -->
 
