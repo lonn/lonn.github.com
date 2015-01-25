@@ -23,6 +23,15 @@ var StrippedString = OriginalString.replace(/(<([^>]+)>)/ig,"");
 })(window, document, window.jQuery); // The global window, document, and jQuery objects are passed into the anonymous function
 ```
 
+**Debug CSS layers**
+
+``` javascript
+// Try to type it in your browser console, and the different layers of HTML that there are in the web page will be highlighted in different colors.
+[].forEach.call($$("*"),function(a){
+  a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)
+})
+```
+
 ***
 
 ##CSS##
